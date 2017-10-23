@@ -35,6 +35,7 @@ window.onload = function() {
 	link.style.position = "fixed";
 	link.style.bottom = "0";
 	link.style.right = "0";
+	link.style.zIndex = "1000";
 
 	//add the anchor to the page
 	document.body.appendChild(link);
